@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+/* @font-face {
+    font-family:"abc" ;
+    src: url(./fonts/Poppins-Italic.ttf);
+} */
+
+/* *{  // universal selector
+    background-color: aqua;
+    color: white;
+} */
+
+/* 
+h1,h2,h3{  // type selector
+    color: red;
+} */
+
+/* h2{
+    color: red;
+}
+
+h3{
+    color: red;
+} */
+
+
+/* .one{   /// class selector
+    color: blueviolet;
+}
+
+#two{     // iD selector
+    color: aqua;
+} */
+
+
+/* div>p{ // Child Selector
+
+    color: red;
+} */
+/* 
+div p{   // Descendant Selector
+
+    color: brown;
+} */
+
+
+/* h1+p{  // Adjacent Sibling Selector
+     color: aqua;
+} */
+
+
+/* div>p{
+    color: blueviolet;
+} */
+
+
+/* h1{
+    color: red;
+}
+
+#one{
+    color: brown;
+}
+
+
+
+h1{
+    color: aqua;
+} */
+
+
+
+/* 
+div{
+    color: brown;
+} */
+
+
+/* h1{
+    color: #00b9fe;
+} */
+
+
+/* h1{
+    color: rgb(12, 179, 33)
+} */
+
+
+/* h1{
+    color: rgb(40, 224, 221);
+} */
+
+
+
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    opacity: 0.2;
+} */
+
+/* h1{
+    background-color: rgba(255, 0,0, 0.2);
+    background-color: red;
+    opacity: 0.2;
+    background-color: hsl(120, 100%, 50%);
+} */
+
+
+
+/* h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+/* 
+h1{
+    font-family: "Poppins", sans-serif;
+
+} */
+/* 
+h1{
+    font-family: abc;
+} */
+
+
+
+/* p{
+    font-weight: 900;
+    font-style: italic;
+    font-style: oblique;
+    text-transform: uppercase; 
+    text-transform: lowercase; 
+    text-transform: capitalize; 
+    text-decoration: line-through;
+    text-decoration: underline;
+} */
+
+/* .one{
+    text-decoration: blink;
+} */
+
+/* a{
+    text-decoration: none;
+} */
+
+
+p{
+    /* line-height: 90px; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 20px; */
+    /* text-align: justify; */
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+
+ @font-face {
+    font-family:"Poppins" ;
+    src: url(./fonts/Poppins-ExtraLight.ttf);
+} 
+
+
+/* *{
+    background-color: red;
+    color: white;
+} */
+
+
+/* .one{
+    color: aqua;
+}
+
+
+#two{
+    background-color: blue;
+}
+
+
+li > a {
+    background-color: red;
+} */
+
+/* h1 , h2 , h3 , h4{
+    color: red;
+} */
+
+/* h2{
+    color: red;
+}
+
+
+h3{
+    color: red;
+} */
+
+/* 
+h1{
+    color: aqua;
+}
+
+h1{
+    color: red;
+}
+
+#one{
+    color: brown;
+}
+
+
+h1{
+    color: blue;
+} */
+
+
+/* h1{
+   color: #ee3e80;
+} */
+
+
+/* h1{
+    color: rgb(120, 120, 200);
+} */
+
+
+/* body{
+    background-color:red;
+    opacity: 0.5;
+    
+} */
+
+
+#one{
+    color: red;
+}
+/* #one:hover{
+    color: blue;
+    background-color: aqua;
+} */
+
+/* #one:active{
+    color: yellowgreen;
+} */
+
+
+#one:focus{
+    color: brown;
+}
+p{
+    font-weight: 100;
+    font-style: oblique;
+    /* text-transform: capitalize; */
+    /* text-decoration: blink; */
+    /* line-height: 70px; */
+    /* letter-spacing: 10px; */
+    word-spacing: 10px;
+    text-align: justify;
+    text-indent: 90px;
+
+}
+p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: blue;
+}
+/* a{
+    text-decoration: none;
+} */
+
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: aqua;
+}
