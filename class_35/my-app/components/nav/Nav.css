@@ -1,0 +1,7 @@
+.nav{
+    background-color: blue;
+    color: white;
+}
+li:hover{
+text-decoration: underline;
+}
