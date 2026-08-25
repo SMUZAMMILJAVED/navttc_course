@@ -68,7 +68,7 @@
 // var a=true
 // if(a){
 //    console.log("hello from if");
-   
+
 // }
 // console.log(2>=2);   //true/false
 
@@ -76,7 +76,7 @@
 // var num =3;
 // if(num>0){//false
 //     console.log("number is greater than zero!");
-    
+
 // }else if(num ===3){//true
 // console.log("number is equal to 3");
 
@@ -91,3 +91,33 @@
 
 
 
+// let a= 20;
+// setTimeout(()=>{
+// console.log("from set time out")
+// },[3000])
+// console.log(a)
+//call back
+// function count(time, cb) {
+//     const interval = setInterval(() => {
+//         console.log("hello world!")
+//     }, [time * 1000])
+//     setTimeout(() => {
+//         clearInterval(interval)
+//         cb()
+//     }, [time * 3000])
+// }
+// //call back hell
+// count(1, () => {
+//     count(1, () => {
+//         count(1, () => {
+//             count(1, () => {
+//                 count(1,()=>{
+//                     count(1,()=>{
+//                         console.log('done')
+//                     })
+//                 })
+
+//             })
+//         })
+//     })
+// })
