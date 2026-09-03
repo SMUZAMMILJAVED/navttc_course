@@ -1,0 +1,10 @@
+const express=require('express')
+const product=require('./routes/product')
+const mongoConnect = require('./config/db')
+const app=express()
+mongoConnect()
+app.use('/uploads',express.static(process.cwd()+'/uploads'))
+app.use('/add',product)
+app.listen(4000,()=>{
+    console.log("server running")
+})
